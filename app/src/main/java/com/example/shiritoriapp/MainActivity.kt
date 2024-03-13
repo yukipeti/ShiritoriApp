@@ -60,7 +60,7 @@ fun InputText() {
                     println("input $inputValue")
                 }
             ),
-            label = { Text("Enter a word") }
+            placeholder = { Text(text = "Type here...")}
         )
     }
 }
